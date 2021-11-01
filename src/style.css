@@ -13,10 +13,13 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #fff;
+   
 }
 
 header{
     width: auto;
+    display: flex;
+    justify-content: center;
     height: 60px;
     display: flex;
     background-color: #fff;
@@ -38,6 +41,13 @@ header{
     width: 100%;
     display: flex;
     margin-left: 35px;
+    
+}
+
+span:hover{
+    cursor: pointer;
+    color: #808080;
+    transition: 0.5s;
 }
 
 span{
@@ -47,6 +57,22 @@ span{
     cursor: pointer;
     font-size: 0.9rem;
     margin-right: 15px;
+    position: relative;
+    
+}
+
+.material-icons{
+  position: absolute;
+  padding-right: 779px;
+  padding-top: 16px;
+  opacity: 60%;
+}
+
+#icon-dow{
+    position: absolute;
+    padding-left: 2355px;
+    padding-top: 17px;
+    
 }
 
 .navigation{
@@ -86,19 +112,19 @@ span{
 
 .submenu-loading{
     height: 35px;
-    width: 260px;
+    width: 218px;
     background-color: #3fbf70;
     flex-direction: column;
     font-size: 0.9rem;
     cursor: pointer;
     border-radius: 23px;
-    margin-right: 20px;
     text-align: center;
     padding-top: 10px;
-    margin-top: 10px;
     color: #fff;
     margin-right: 75px;
     margin-top: 12px;
+    padding-left: 25px;
+    font-weight: 600;
 }
 
 main{
@@ -118,7 +144,7 @@ main{
 
 #title{
     height: 200px;
-    padding-top: 66px;
+    padding-top: 69px;
     padding-left: 607px;
     line-height: 1.9;
 }
@@ -128,6 +154,9 @@ input{
     width: 43%;
     border-radius: 7px;
     border: 0px;
+    font-size: 1.0rem;
+    padding-left: 40px;
+    background-image: url('../imagens/cabecalho.png');
 }
 
 #boxText{
@@ -143,16 +172,17 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 70%;
+    opacity: 90%;
     width: 2000px;
+    font-weight: 200;
 }
 
 #subtitleInput2{
-    padding-top: 128px;
+    padding-top: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 80%;
+    opacity: 90%;
     font-size: 1.2em;
 }
 
@@ -162,13 +192,19 @@ h1 {
     font-size: 2.0rem;
     font-weight: 600;
     text-shadow: black 0.1em 0.1em 0.4em;
+    font-size: 2.2rem;
 }
 
 h2 {
     color: #fff;
     font-size: 0.9rem;
     padding-left: 39px;
-  
+    font-size: 1.0rem;
+    font-weight: 300;
+}
+
+p{
+    text-align: center;
 }
 
 .galeria-container{
@@ -208,3 +244,18 @@ footer{
     color: #FFF;
     font-style: italic;
 }
+
+@media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+
+}
+
+.lista{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+}
+
