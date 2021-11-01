@@ -186,6 +186,17 @@ input{
     font-size: 1.2em;
 }
 
+#sltImagens{
+    background-color: transparent;
+    border: 0;  
+    position: absolute;
+    padding-left: 700px;
+    margin-top: 20px;
+    font-size: 1.0rem;
+    opacity: 60%;
+    cursor: pointer;
+}
+
 
 h1 {
     color: #fff;
@@ -235,14 +246,58 @@ p{
     transform: scale(130%);
 }
 
+#conteudo-footer{
+    margin-top: 25px;
+    height: 350px;
+    text-align: center;
+}
 
 footer{
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFF;
+    color: #000;
     font-style: italic;
+}
+
+#footer-loading{
+    height: 45px;
+    width: 218px;
+    background-color: #3fbf70;
+    font-size: 1.0rem;
+    cursor: pointer;
+    border-radius: 23px;
+    padding-top: 14px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#footer-desc{
+    height: 205px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+h3{
+    font-size: 2.0rem;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+h4{
+    color: #00a2ff8f;
+    cursor: pointer;
+}
+
+p{
+    font-size: 1.2rem;
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -252,10 +307,4 @@ footer{
 
 }
 
-.lista{
-    height: 40px;
-    width: 100px;
-    text-align: center;
-    color: #fff;
-}
 
