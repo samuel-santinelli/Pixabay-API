@@ -63,22 +63,23 @@ span{
 
 .material-icons{
   position: absolute;
-  padding-right: 779px;
-  padding-top: 16px;
+  padding-right: 783px;
+  padding-top: 17px;
   opacity: 60%;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
 }
 
 #icon-dow{
     position: absolute;
     padding-left: 2355px;
     padding-top: 17px;
-    
 }
 
 .navigation{
     width: 90px;
     float: right;
-    
 }
 
 .submenu-right{
@@ -164,7 +165,6 @@ input{
     height: 60px;
     display: flex;
     justify-content: center;
-  
 }
 
 #subtitleInput{
@@ -225,15 +225,14 @@ p{
     padding: 0 15px;
 }
 
-.galeria-items{
-    background-color: royalblue;
+.result{
+    border: solid 1px #000;
     width: 340px;
     height: 240px;
     flex-grow: 1;
-    border: 10px solid #FFF;
     overflow: hidden;
 }
-.galeria-items img{
+.result img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -241,10 +240,6 @@ p{
     transition: all .5s linear;
 }
 
-.galeria-items img:hover{
-    filter: grayscale(0%);
-    transform: scale(130%);
-}
 
 #conteudo-footer{
     margin-top: 25px;
