@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="script.js"> </script>
+    <script src="script.js" defer> </script>
   
     <title>Galeria de imagens</title>
 </head>
@@ -26,10 +26,10 @@
                <select name="Explorar" id="explorar-option">
                 <option value="Explorar">Explorar</option>   
                 <ul class="lista">
-                   <li class="lista" >ss <a href=""></a></li>
-                   <li class="lista">ss< <a href=""></a>/li>
-                   <li class="lista">ss< <a href=""></a>/li>
-                   <li class="lista">ss< <a href=""></a>/li>
+                   <li class="lista"><a href=""></a></li>
+                   <li class="lista"><a href=""></a>/li>
+                   <li class="lista"><a href=""></a>/li>
+                   <li class="lista"><a href=""></a>/li>
                 </ul>
                </select>
            
@@ -60,9 +60,9 @@
             </div>  
 
             <div id="boxText">
-                <input id="imagens" name="inputText" placeholder="Search Images, vectors, videos and music" type="text" alt=""> 
+                <input id="pesquisaImagens" name="inputText" placeholder="Search Images, vectors, videos and music" type="text" alt=""> 
                 <i class="material-icons">search</i>
-                <button class="material-icons" onclick="pesquisarImagens()">search</button>
+                <button class="material-icons">search</button>
                 <select id="sltImagens" name="Imagens" id="explorar-option">
                 <option value="Imagens">Imagens</option>  
                 <option value="photo">Fotos</option>
@@ -83,9 +83,10 @@
 
         </div>
 
-        <div id="result">
-     
+        <div class="galery-container">
+            
         </div>
+
 
         <div id="conteudo-footer">
               
