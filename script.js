@@ -37,7 +37,6 @@ const uploadPictures = (item) => {
     <div class="typeDesc">${item.comments} comments <img  class="icon-right" src="imagens/comment.png"></div>
 </div>
  `
-
     
 img.appendChild(div);
 }
