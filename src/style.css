@@ -223,13 +223,18 @@ p{
 }
 
 .galery-container{
+    width: 100%;
+    max-width: 2200px;
+    height: auto;
     display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    padding: 50px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 25px;
+    border-bottom: solid 1px #001;
 }
+
+
 
 #result{
     border: solid 1px #000;
@@ -321,10 +326,18 @@ select, option{
 }
 
 #Picture{
-    width: 400px;
-    height: 300px;
-    background-color: #3fbf70;
-    
+    flex-grow: 1;
+    height: 270px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    cursor: pointer;
+}
+
+#Picture:hover{
+    filter: blur(1px);
+    cursor: pointer;
+    transition: 3s;
 }
 
 .typeDesc{
@@ -347,4 +360,15 @@ select, option{
 ::placeholder{
     opacity: 70%;
 }
+
+.typeDesc{
+    transition: 0s;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+
+}
+
+
+
 

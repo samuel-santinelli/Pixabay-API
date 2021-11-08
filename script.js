@@ -27,13 +27,13 @@ const insertNamePicture  = async (evento) =>{
 const uploadPictures = (item) => {
     const img = document.querySelector('.galery-container');
     const div = document.createElement('div')
-    div.classList.add('picture')
+    div.classList.add("picture")
     div.innerHTML = `
     <div class="imgPicture"> 
     <img id="Picture" src="${item.previewURL}">
     <div class="imgPicture">
     <div class="typeDesc">${item.tags}</div>
-    <div class="typeDesc">${item.likes} likes <img  class="icon-right" src="imagens/like.png"></div>
+    <div class="typeDesc">${item.likes} likes <img class="icon-right" src="imagens/like.png"></div>
     <div class="typeDesc">${item.comments} comments <img  class="icon-right" src="imagens/comment.png"></div>
 </div>
  `
