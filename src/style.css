@@ -185,13 +185,15 @@ input{
 
 #sltImagens{
     background-color: transparent;
-    border: 0;  
+    border: 0px;  
     position: absolute;
-    padding-left: 700px;
+    margin-left: 630px;
     margin-top: 20px;
     font-size: 1.0rem;
     opacity: 60%;
     cursor: pointer;
+    background-color:transparent;
+   font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -300,3 +302,9 @@ p{
 }
 
 
+select, option{
+    border: 0px;
+    background-color:transparent;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
