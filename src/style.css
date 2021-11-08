@@ -13,7 +13,6 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #fff;
-   
 }
 
 header{
@@ -23,7 +22,6 @@ header{
     height: 60px;
     display: flex;
     background-color: #fff;
-    
 }
 
 #titleCabecalho{
@@ -157,7 +155,6 @@ input{
     border: 0px;
     font-size: 1.0rem;
     padding-left: 40px;
-    background-image: url('../imagens/cabecalho.png');
 }
 
 #boxText{
