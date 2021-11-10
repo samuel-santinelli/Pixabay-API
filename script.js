@@ -23,7 +23,6 @@ const insertNamePicture  = async (evento) =>{
    
 }
 
-
 const uploadPictures = (item) => {
     const img = document.querySelector('.galery-container');
     const div = document.createElement('div')
@@ -50,4 +49,3 @@ const carregarImagens = (imagem) => imagem.forEach(uploadPictures)
 document.getElementById('pesquisaImagens').addEventListener('keypress' ,insertNamePicture);
 
 document.getElementById('search').onclick = insertNamePicture
-
