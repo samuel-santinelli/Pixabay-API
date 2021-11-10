@@ -29,7 +29,7 @@ const uploadPictures = (item) => {
     div.classList.add("picture")
     div.innerHTML = `
     <div class="imgPicture"> 
-    <img id="Picture" src="${item.previewURL}">
+    <img id="Picture" src="${item.webformatURL}">
     <div class="imgPicture">
     <div class="typeDesc">${item.tags}</div>
     <div class="typeDesc">${item.likes} likes <img class="icon-right" src="imagens/like.png"></div>
