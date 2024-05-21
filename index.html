@@ -5,40 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="script.js" defer> </script>
+  
     <title>Galeria de imagens</title>
 </head>
 <body>
     <header>
-        <div id="cabecalho">
-            <img id="imgCabecalho" src="imagens/cabecalho.png" alt="">
-        </div>
+            <div id="titleCabecalho">pixabay</div>
+            <div id="submenu">
+                <span>Fotos</span>
+                <span>Iustrações</span>
+                <span>Vectores</span>
+                <span>Videos</span>
+                <span>Música</span>
+                <span>Sound Effects</span>
+            </div>
+
+            <div class="navigation">
+               <select name="Explorar" id="explorar-option">
+                <option value="Explorar">Explorar</option>   
+                <ul class="lista">
+                   <li class="lista"><a href=""></a></li>
+                   <li class="lista"><a href=""></a>/li>
+                   <li class="lista"><a href=""></a>/li>
+                   <li class="lista"><a href=""></a>/li>
+                </ul>
+               </select>
+           
+            </div>
+            <div class="submenu-right">
+               
+           </div>
+
+           <div class="submenu-right-login">
+            Efetuar login
+           </div>
+
+           <div class="submenu-right">
+            Aderir
+         </div>
+         
+         <div class="submenu-loading">
+            Carregar
+         </div>
+         <i class="material-icons" id="icon-dow">file_upload</i>
     </header>
     <main>
-        <div class="galeria-container">
-            <a href="#" class="galeria-items">
-               
-            </a>
-            <a href="#" class="galeria-items">
+        <div id="banner">
+            
+            <div id="title">
+                <h1>Use o nosso banco de imagens Royalty Free</h1>
+                <h2>Mais de 1 milhão de imagens, fotos e vídeos em alta qualidade para seus projetos.</h2>
+            </div>  
+
+            <div id="boxText">
+                <input id="pesquisaImagens" name="inputText" placeholder="Search Images, vectors, videos and music" type="text" alt=""> 
+                <img id="search" src="imagens/search.png">
+                <select id="sltImagens" name="Imagens" id="explorar-option">
+                    <option value="photo">Imagens</option> 
+                    <option value="photo">Fotos</option> 
+                    <option value="vector">Imagens Vetoriais</option>
+                    <option value="illustration">Ilustrações</option>
+                    <option value="videos">Videos</option>
+                    <option value="music">Música</option>
+                    <option value="music">Sound Effects</option>
+                    <option value="music">de utilizadores</option>
+                  
+                   </select>
+            </div>
+            
+
+            <div id="subtitleInput">
+                <h2>Popular Images: halloween, natureza, natal, flores, mulher, tecnologia, paisagem, praia, dinheiro, outubro rosa,  <p> pessoas, pizza</h2>
+            </div>
+
+            <div id="subtitleInput2">
+                <h2>Imagens gratuitas de RahulPandit</h2>
+            </div>
+
+        </div>
+
+        <div class="galery-container">
+            
+        </div>
+
+
+        <div id="conteudo-footer">
               
-            </a>
-            <a href="#" class="galeria-items">
-              
-            </a>
-            <a href="#" class="galeria-items">
-                
-            </a>
-            <a href="#" class="galeria-items">
-                
-            </a>
-            <a href="#" class="galeria-items">
-             
-            </a>
-            <a href="#" class="galeria-items">
-               
-            </a>
-            <a href="#" class="galeria-items">
-                
-            </a>
+         <div id="footer-loading">
+                Descubra Mais
+         </div>
+         
+         <div id="footer-desc">
+             <h3>Imagens e vídeos gratuitos que você pode usar em qualquer lugar</h3>
+             <p>A Pixabay é uma comunidade vibrante de criativos, compartilhando imagens e vídeos com licença gratuita de uso. Todo o conteúdo que é lançado sob a Licença de uso Pixabay o torna seguro para o uso sem ser necessário pedir permissão ou atribuir crédito ao seu autor - mesmo para o uso comercial. <h4>Saiba Mais...</h4></p>
+         </div>
         </div>
     </main>
     <footer>

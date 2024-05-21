@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -9,54 +12,238 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: #000;
+    background-color: #fff;
 }
 
 header{
-    height: 100px;
+    width: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #FFF;
+    height: 60px;
+    display: flex;
+    background-color: #fff;
 }
 
-#imgCabecalho{
-    width: 120px;
-    height: 120px;
- 
-}
-
-#menu{
-    height: 200px;
-    width: 100%;
-    background-color: #FFF;
-  
-}
-
-h1 {
+#titleCabecalho{
+    margin-left: 39px;
+    width: 178px;
+    height: 119px;
+    float: left;
     color: #000;
-    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', cursive;
+    padding: 16px;
 }
+
+#submenu{
+    width: 100%;
+    display: flex;
+    margin-left: 35px;
+    
+}
+
+span:hover{
+    cursor: pointer;
+    color: #808080;
+    transition: 0.5s;
+}
+
+span{
+    padding: 10px;
+    margin-right: 10px;
+    padding-top: 22px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 15px;
+    position: relative;
+    
+}
+
+#search{
+  height: 45px;
+  position: absolute;
+  padding-right: 785px;
+  padding-top: 17px;
+  opacity: 60%;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+#icon-dow{
+    position: absolute;
+    padding-left: 2355px;
+    padding-top: 17px;
+}
+
+.navigation{
+    width: 90px;
+    float: right;
+}
+
+.submenu-right{
+    height: auto;
+    width: 120px;
+    padding: 21px;
+    flex-direction: column;
+    font-size: 0.9rem;
+    cursor: pointer;
+    
+}
+
+#explorar-option{
+    margin-top: 20px;
+    border: 0px;
+    font-size: 0.9rem;
+    padding-left: 180px;
+}
+
+.submenu-right-login{
+    height: auto;
+    width: 300px;
+    padding: 21px;
+    flex-direction: column;
+    border-right: 1px solid rgba(223, 212, 212, 0.5);
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding-left: 120px;
+
+}
+
+.submenu-loading{
+    height: 35px;
+    width: 218px;
+    background-color: #3fbf70;
+    flex-direction: column;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 23px;
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+    margin-right: 75px;
+    margin-top: 12px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
 main{
     flex-grow: 1;
 }
 
-.galeria-container{
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    padding: 0 15px;
+#banner{
+    width: 100%;
+    height: 515px;
+    background-image: url(../imagens/bannerImagem2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 70px;
 }
 
-.galeria-items{
-    background-color: royalblue;
+#title{
+    height: 200px;
+    padding-top: 69px;
+    padding-left: 507px;
+    line-height: 1.9;
+    padding-left: 560px;
+}
+
+input{
+    height: auto;
+    width: 43%;
+    border-radius: 7px;
+    border: 0px;
+    font-size: 1.0rem;
+    padding-left: 40px;
+}
+
+#boxText{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#subtitleInput{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 90%;
+    width: 2000px;
+    font-weight: 200;
+    padding-right: 100px;
+}
+
+#subtitleInput2{
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 90%;
+    font-size: 1.2em;
+    
+}
+
+#sltImagens{
+    background-color: transparent;
+    border: 0px;  
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 20px;
+    font-size: 1.0rem;
+    opacity: 60%;
+    cursor: pointer;
+    background-color:transparent;
+    font-family: 'Open Sans', sans-serif;
+ 
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 2.0rem;
+    font-weight: 600;
+    text-shadow: black 0.1em 0.1em 0.4em;
+    font-size: 2.2rem;
+}
+
+h2 {
+    color: #fff;
+    font-size: 0.9rem;
+    font-size: 1.0rem;
+    font-weight: 300;
+    padding-left: 40px;
+}
+
+p{
+    text-align: center;
+}
+
+.galery-container{
+    width: 100%;
+    max-width: 2200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 25px;
+    border-bottom: solid 1px #001;
+}
+
+
+
+#result{
+    border: solid 1px #000;
     width: 340px;
     height: 240px;
     flex-grow: 1;
-    border: 10px solid #FFF;
     overflow: hidden;
 }
-.galeria-items img{
+#result img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -64,17 +251,124 @@ main{
     transition: all .5s linear;
 }
 
-.galeria-items img:hover{
-    filter: grayscale(0%);
-    transform: scale(130%);
-}
 
+#conteudo-footer{
+    margin-top: 25px;
+    height: 350px;
+    text-align: center;
+}
 
 footer{
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFF;
+    color: #000;
     font-style: italic;
 }
+
+#footer-loading{
+    height: 45px;
+    width: 218px;
+    background-color: #3fbf70;
+    font-size: 1.0rem;
+    cursor: pointer;
+    border-radius: 23px;
+    padding-top: 14px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#footer-desc{
+    height: 205px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+h3{
+    font-size: 2.0rem;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+h4{
+    color: #00a2ff8f;
+    cursor: pointer;
+}
+
+p{
+    font-size: 1.2rem;
+    
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+
+}
+
+
+select, option{
+    border: 0px;
+    background-color:transparent;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.imgPicture{
+    padding: 20px;
+}
+
+#Picture{
+    flex-grow: 1;
+    height: 270px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    cursor: pointer;
+}
+
+#Picture:hover{
+    filter: blur(1px);
+    cursor: pointer;
+    transition: 3s;
+}
+
+.typeDesc{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+
+    
+}
+
+.material-icons-outlined{
+    padding-bottom: 20px;
+}
+
+.icon-right{
+    width: 25px;
+    height: 25px;
+    
+}
+
+::placeholder{
+    opacity: 70%;
+}
+
+.typeDesc{
+    transition: 0s;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+
+}
+
+
+
+
